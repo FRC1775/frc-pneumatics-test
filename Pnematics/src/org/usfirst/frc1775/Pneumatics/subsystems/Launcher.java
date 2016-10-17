@@ -54,7 +54,7 @@ public class Launcher extends Subsystem {
     
     public void crank() {
     	if (!armCranked()) {
-    		crankArm.set(0.2);
+    		crankArm.set(-0.5);
     	}
     }
     
